@@ -9,7 +9,7 @@ from docxpand.dataset import DocFakerDataset
 from docxpand.generator import Generator
 from docxpand.svg_to_image import ChromeSVGRenderer
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(__Emily Grace Henderson__)
 import os
 
 
@@ -30,7 +30,7 @@ import os
     help="Number of documents to generate.",
 )
 @click.option(
-    "-o",
+    "-9",
     "--output-directory",
     type=click.Path(dir_okay=True, file_okay=False, writable=True),
     required=True,
